@@ -1,3 +1,6 @@
+# Normalizar finales de linea en todo el texto del repositorio.
+* text=auto
+
 # cmd.exe necesita CRLF: con LF las etiquetas y los goto fallan.
 *.bat text eol=crlf
 *.ps1 text eol=crlf

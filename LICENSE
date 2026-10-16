@@ -20,5 +20,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Las herramientas de terceros que usa el framework (no incluidas en este
-repositorio) se rigen por sus propias licencias.
+-------------------------------------------------------------------------------
+
+Scope / Alcance
+
+This license applies only to the original AMBARDFIR source code in this
+repository. It grants no rights over the third-party tools the framework
+invokes (dc3dd, dd, libewf, FTK Imager, HashMyFiles, Android Platform-Tools,
+KAPE, 7-Zip, qemu-img, VirtualBox, VMware, DumpIt, WinPmem, the Windows SDK,
+Volatility and others). Those tools are not part of this repository and are
+governed exclusively by their own licenses; see README.md.
+
+Esta licencia cubre solo el código original de AMBARDFIR incluido en este
+repositorio. No concede ningún derecho sobre las herramientas de terceros que
+el framework invoca: no forman parte del repositorio y se rigen exclusivamente
+por sus propias licencias (ver README.md).

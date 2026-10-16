@@ -1,12 +1,25 @@
-# Herramientas de terceros: no se versionan (ver README, seccion Herramientas).
+# Herramientas de terceros: no se versionan (ver README, "Herramientas de terceros").
 /Windows/Sistema/herramientas/*
 !/Windows/Sistema/herramientas/Utilidades/
 /Windows/Sistema/herramientas/Utilidades/*
 !/Windows/Sistema/herramientas/Utilidades/*.ps1
 
-# Salidas de ejecucion
+# Salida del framework. Por defecto escribe la evidencia y los registros DENTRO del
+# proyecto (AMBARDFIR.bat: EVID_ROOT y :LOG_INIT): nunca deben llegar a un repositorio.
+/Evidencias/
+/Logs/
+
+# Registros y estado que generan las herramientas al ejecutarse
 *_ConsoleLog.txt
 Validacion_*.txt
+HashMyFiles.cfg
+
+# Temporales del framework y del sistema
+forensic_cmd_*.tmp
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
 
 # Restos de wrangler (despliegue del sitio)
 .wrangler/

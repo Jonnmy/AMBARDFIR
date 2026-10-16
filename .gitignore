@@ -1,0 +1,9 @@
+# Herramientas de terceros: no se versionan (ver README, seccion Herramientas).
+/Windows/Sistema/herramientas/*
+!/Windows/Sistema/herramientas/Utilidades/
+/Windows/Sistema/herramientas/Utilidades/*
+!/Windows/Sistema/herramientas/Utilidades/*.ps1
+
+# Salidas de ejecucion
+*_ConsoleLog.txt
+Validacion_*.txt

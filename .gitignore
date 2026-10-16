@@ -7,3 +7,6 @@
 # Salidas de ejecucion
 *_ConsoleLog.txt
 Validacion_*.txt
+
+# Restos de wrangler (despliegue del sitio)
+.wrangler/
